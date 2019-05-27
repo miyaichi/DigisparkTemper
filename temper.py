@@ -29,7 +29,7 @@ def read_line(device):
     while True:
         c = chr(read(device))
         if c == '\r':
-            return line
+            return line.strip()
         line += c
 
 
