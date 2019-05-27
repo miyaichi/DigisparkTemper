@@ -24,10 +24,8 @@ Open DigisparkTemper.ino in the Arduino IDE and program it in Digispark. The boa
 
 ```bash
 $ sudo pip install pyusb
-$ git clone https://github.com/digistump/DigisparkExamplePrograms.git
-$ cd DigisparkExamplePrograms/Python/DigiUSB/source
-$ sudo python read.py
- {"Temperature": 22, "Humidity": 60}
+$ sudo ./temper.py
+{"Temperature": 22, "Humidity": 60}
 ```
 
 ## Credit
